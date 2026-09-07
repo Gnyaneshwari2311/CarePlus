@@ -4,7 +4,7 @@ const bookingSlice = createSlice({
   name: "bookings",
 
   initialState: {
-    list: []
+    list: [],
   },
 
   reducers: {
@@ -16,13 +16,13 @@ const bookingSlice = createSlice({
       state.list = state.list.filter(
         (booking) => booking.id !== action.payload
       );
-    }
-  }
+    },
+  },
 });
 
 export const {
   addBooking,
-  deleteBooking
+  deleteBooking,
 } = bookingSlice.actions;
 
 export default bookingSlice.reducer;
