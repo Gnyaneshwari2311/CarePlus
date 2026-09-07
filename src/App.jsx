@@ -10,7 +10,7 @@ import About from "./pages/About";
 import Doctors from "./pages/Doctors";
 import Services from "./pages/Services";
 import Appointments from "./pages/Appointments";
-import Patients from "./pages/Patients";
+import Patients from "./pages/patients";
 import Contact from "./pages/contact";
 
 import Cardiology from "./pages/Cardiology";
